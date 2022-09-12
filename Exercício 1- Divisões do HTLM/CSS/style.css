@@ -1,0 +1,119 @@
+
+@charset "UTF-8";
+
+/*=========RESET=========*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+/*==========VARIABLES==========*/  
+:root {
+    --body-color:#413e3e; 
+    --base-color: #ffffff; 
+    --principal-color: #CBCBCB;
+    --nav-color: #e7e7e7;
+    --section-color: #000000;
+}
+
+/*==========BASE==========*/
+
+body {
+    background-color: var(--base-color);
+    font-family: 'Roboto', sans-serif;
+    color: var(--body-color);
+    }
+
+h1 {
+    font-size: 1.4rem; /*/1rem = 16px */
+    letter-spacing: 0.0625rem;
+    }
+
+/*=========LAYOUT=========*/
+
+#principal {
+    background-color: var(--base-color);
+    width: 1200px;
+    padding: 24px;
+    height: 1000px;
+    }
+
+header {
+    background-color: var(--principal-color);
+    height: 150px;
+    box-shadow: 0 1px 0 #fff, 0 -3px 3px rgb(136, 136,136) inset;
+    padding: 10px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    }
+
+nav {
+    background-color: var(--nav-color);
+    height: 50px;
+    margin: 50px;
+    margin-left: 10px;
+    margin-right: 25px;
+    padding-top: 11px;
+    padding-left:10px;
+    border-radius:2px;
+    box-shadow:  0 -1px 3px rgb(136, 136, 136) inset;
+    }
+
+
+ /*=========SECTION E ASIDE=========*/    
+
+#paisectioneaside {
+    display: flex;
+    }
+
+section {
+    color: var(--section-color);
+    background-color: var(--principal-color);
+    width: 1000px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
+    box-shadow: 0 1px 0 #fff, 0 -3px 3px rgb(136, 136,136) inset;
+    border-radius:2px;
+    }
+    
+.article01, .article02,  .article03 {
+    margin: 10px  30px 20px 30px;
+    text-align:left;
+    background-color: var(--base-color);
+    box-shadow:  0 -1px 3px rgb(136, 136, 136) inset;
+    border-radius:2px;
+    padding-top: 20px;
+    padding-bottom: 120px;
+    padding-left: 60px;
+    color: var(--section-color);
+    }
+
+aside {
+    background-color: var(--principal-color);
+     width: 280px;
+    padding-top: 15px;
+    border-radius:2px;
+    padding-left: 30px;
+    box-shadow:  0 -1px 3px rgb(136, 136, 136) inset;
+    }
+
+ /*=========FOOTER=========*/   
+
+footer {
+     background-color: var(--principal-color);
+    height: 60px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    box-shadow: 0 1px 0 #fff, 0 -3px 3px rgb(136, 136,136) inset;
+    border-radius:2px;
+    }
+
+    
+   
+
