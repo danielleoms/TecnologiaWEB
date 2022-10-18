@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/*mobile*/
+body {
+    background-color: rgb(255, 220, 195);
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: chocolate;
+}
+
+/*tablet*/
+@media (min-width:768px) {
+    body {
+        background-color: burlywood;
+    }
+
+    h1 {
+        color: rgb(139, 0, 0);
+    }
+}
+
+/*desktop*/
+@media (min-width:960px) {
+    body {
+        background-color:rgb(248, 192, 135);
+    }
+
+    h1 {
+        color:rgb(192, 82, 62);
+    }
+}
+
+/*widescrem*/
+@media (min-width:1200px) {
+    body {
+        background-color:rgb(250, 211, 164);
+    }
+
+    h1 {
+        color:darkgoldenrod;
+    }
+}
